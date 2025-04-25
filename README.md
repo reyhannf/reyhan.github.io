@@ -1,4 +1,4 @@
-<form method="POST" action="http://127.0.0.1:4040/login">
+<form method="POST" action="http://127.0.0.1:4040">
   <input type="text" name="username" placeholder="Username"><br>
   <input type="password" name="password" placeholder="Password"><br>
   <button type="submit">Login</button>
